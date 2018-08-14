@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1534287727 source:c:\users\bruno\desktop\c\r5final\main.cpp
+	<iostream>
+	"ControleDeGastos.h"
+
+1534286453 source:c:\users\bruno\desktop\c\r5final\src\despesa.cpp
+	"Despesa.h"
+
+1534286453 c:\users\bruno\desktop\c\r5final\include\despesa.h
+	<string>
+
+1534287336 source:c:\users\bruno\desktop\c\r5final\src\controledegastos.cpp
+	"ControleDeGastos.h"
+
+1534287366 c:\users\bruno\desktop\c\r5final\include\controledegastos.h
+	"Despesa.h"
+

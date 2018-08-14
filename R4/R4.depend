@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\bruno\desktop\c\r4\main.cpp
+	<iostream>
+
+1533769733 source:c:\users\bruno\desktop\c\r4\src\pessoa.cpp
+	"Pessoa.h"
+
+1533769537 c:\users\bruno\desktop\c\r4\include\pessoa.h
+	<string>
+

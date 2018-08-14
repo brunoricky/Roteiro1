@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1534289376 source:c:\users\bruno\desktop\c\r6\src\controledepagamentos.cpp
+	"ControleDePagamentos.h"
+
+1534289376 c:\users\bruno\desktop\c\r6\include\controledepagamentos.h
+	"Pagamento.h"
+
+1534289436 c:\users\bruno\desktop\c\r6\include\pagamento.h
+	<string>
+
+1534289617 source:c:\users\bruno\desktop\c\r6\src\pagamento.cpp
+	"Pagamento.h"
+
