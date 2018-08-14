@@ -1,27 +1,26 @@
 #include <iostream>
-#include "Invoice.h"
-#include <string>
+#include "Data.h"
 
 using namespace std;
 
 int main()
 {
-    int numero;
-    float quantidade, preco, faturaTotal;
-    std::string descricao;
+    int x, d, m, a;
+    Data *dt1 = new Data();
 
-    Invoice *inv1 = new Invoice();
+    cout << "Digite o dia: "; cin >> d;
+    cout << "Digite o mes: "; cin >> m;
+    cout << "Digite o ano: "; cin >> a;
 
-    std::cout << "Digite o numero: "; std::cin >> inv1->numero;
-    std::cout << "Digite a quantidade: "; std::cin >> inv1->quantidade;
-    std::cout << "Digite o preco: "; std::cin >> inv1->preco;
-    getchar();
-    std::cout << "Digite a descricao: "; std::getline( std::cin, inv1->descricao);
+    x = dt1->verifier(d,m,a);
 
-    faturaTotal = inv1->getInvoiceAmount(inv1->preco, inv1->quantidade);
+    if(x==1) cout << "Data valida!\n";
+    else if(x==0) cout << "Data invalida!\n";
+    else cout << "Error\n";
 
-    std::cout << inv1->descricao << "\n\n";
-    std::cout << "A fatura total eh: " << faturaTotal << "\n\n";
+    dt1->avancarDia(d,m,a);
+
+    cout << "A nova data eh: " << dt1->dia << "/" << dt1->mes << "/" << dt1->ano;
 
     return 0;
 }
